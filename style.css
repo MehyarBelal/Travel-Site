@@ -69,3 +69,30 @@ video{
     bottom:0;
     z-index: -1;
 }
+
+.main{
+    padding: 70px 3%;
+    width: 100%;
+    display:flex;
+   
+}
+
+.main img{
+     width: 100%;
+    margin-bottom: 10px;
+}
+
+.left,.right{
+    width: 50%;
+}
+
+.right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px;
+
+}
